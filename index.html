@@ -1,17 +1,64 @@
-Instagram Icon: https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-53-64.png 
-Link: https://www.instagram.com/beyonce/?hl=en
+<!DOCTYPE html>
+<html lang="en">
 
-Twitter Icon: https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-52-64.png 
-Link: https://twitter.com/beyonce?lang=en
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise: Beyonce's Publicist</title>
+    <style>
+        .tooltip {
+          position: relative;
+          display: inline-block;
+          border-bottom: black;
+        }
+        
+        .tooltip .tooltiptext {
+          visibility: hidden;
+          width: 120px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+          padding: 5px 0;
+          position: absolute;
+          z-index: 1;
+          top: -5px;
+          left: 110%;
+        }
+        
+        .tooltip .tooltiptext::after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          right: 100%;
+          margin-top: -5px;
+          border-width: 5px;
+          border-style: solid;
+          border-color: transparent black transparent transparent;
+        }
+        .tooltip:hover .tooltiptext {
+          visibility: visible;
+        }
+        </style>
+</head>
 
-Facebook Icon: https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-50-64.png 
-Link: https://www.facebook.com/beyonce/
+<body>
+    <h1>Beyonce's Social Media</h1>
+    <ol>
+        <li class="tooltip"><span class="tooltiptext">Beyonce Instagram</span><a href="https://www.instagram.com/beyonce/?hl=en" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-53-64.png" alt="Beyonce Instagram"></a></li>
 
-YouTube Icon: https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-45-64.png 
-Link: https://www.youtube.com/channel/UCuHzBCaKmtaLcRAOoazhCPA
+        <li class="tooltip"><span class="tooltiptext">Beyonce Twitter</span><a href="https://twitter.com/beyonce?lang=en" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-52-64.png" alt="Beyonce Twitter"></a></li>
 
-Vimeo Icon: https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-54-64.png 
-Link: https://vimeo.com/beyonce
+        <li class="tooltip"><span class="tooltiptext">Beyonce Facebook</span><a href="https://www.facebook.com/beyonce/" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-50-64.png " alt="Beyonce Facebook"></a></li>
 
-SoundCloud Icon: https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-43-64.png 
-Link: https://soundcloud.com/beyonce
+        <li class="tooltip"><span class="tooltiptext">Beyonce Vimeo</span><a href="https://www.youtube.com/channel/UCuHzBCaKmtaLcRAOoazhCPA" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-54-64.png" alt="Beyonce YouTube"></a></li>
+
+        <li class="tooltip"><span class="tooltiptext">Beyonce YouTube</span><a href="https://vimeo.com/beyonce" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-45-64.png " alt="Beyonce Vimeo"></a></li>
+
+        <li class="tooltip"><span class="tooltiptext">Beyonce SoundCloud</span><a href="https://soundcloud.com/beyonce" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-59/128/social_network_web_media_-43-64.png" alt="Beyonce SoundCloud"></a></li>
+    </ol>
+    
+</body>
+
+</html>
+
